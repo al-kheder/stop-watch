@@ -17,7 +17,7 @@ export default function Stopwatch() {
       setIsRunning(false);
     }
   };
-
+  //test
   const resetStopwatch = () => {
     clearInterval(intervalRef.current);
     setTime(0);
